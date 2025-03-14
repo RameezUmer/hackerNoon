@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for auth and task manager",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "start",
+    "test": "test"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "rameez",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0",
+    "nodemailer": "^6.10.0"
+  }
+}
